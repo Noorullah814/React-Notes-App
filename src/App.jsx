@@ -31,7 +31,7 @@ const App = () => {
       <div className='flex flex-col lg:w-1/2 m-5'>
         <h1 className='text-center text-3xl font-bold my-5'>Add Notes</h1>
 
-      <div className='shadow-lg rounded-2xl p-6 border-1'>
+      <div className='shadow-lg rounded-2xl p-6 border-2'>
         <form onSubmit={submitHandler}
           className='flex flex-col m-5'
         >
