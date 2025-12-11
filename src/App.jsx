@@ -41,15 +41,15 @@ const App = () => {
             onChange={(e) => {
               setTitle(e.target.value)
             }}
-            className='border-2 px-5 py-2 m-3 text-xl'
+            className='border-2 px-5 py-2 m-3 text-xs font-bold  '
           />
           <textarea type="text"
-            placeholder='Write details here . . .'
+            placeholder='Write details here'
             value={details}
             onChange={(e) => {
               setDetails(e.target.value)
             }}
-            className='border-2 p-5 m-3 text-xl'
+            className='border-2 p-5 m-3 text-xs font-bold '
           />
           <button className='border-2 px-5 py-3 m-3 text-xl active:scale-95 bg-black text-white'
           >Add Notes</button>
